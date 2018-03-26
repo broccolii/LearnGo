@@ -1,13 +1,13 @@
-
+// An implementation of Conway's Game of Life.
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"net/http"
+)
+
+
 
 func main() {
-	a := 111
-	function(a)
-}
 
-func function(a... int) {
-	fmt.Printf("a type is  %T", a)
 }
