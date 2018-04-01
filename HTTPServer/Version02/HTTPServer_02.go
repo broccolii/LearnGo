@@ -6,6 +6,8 @@ import (
 )
 
 func main() {
+
+	// mux 也实现 Handler interface
 	mux := http.NewServeMux()
 
 	mux.Handle("/", &myHandler{})
